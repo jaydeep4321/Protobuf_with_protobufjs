@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Data {
+  string _id = 1;
+  string name = 2;
+  int32 age = 3;
+  string description = 4;
+}
+
+message AllData {
+  repeated Data allData = 1;
+}
